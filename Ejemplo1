@@ -1,0 +1,8 @@
+scores = []
+materias = ['Matemáticas','Química','Física','Historia','Lengua']
+print(materias)
+for materia in materias:
+    score = input("¿Qué nota has sacado en " + materia + "?: ")
+    scores.append(score)
+for i in range(len(materias)):
+    print(f'En {materias[i]} has sacado: {scores[i]}')
