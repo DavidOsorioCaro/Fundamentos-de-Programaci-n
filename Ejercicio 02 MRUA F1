@@ -1,0 +1,8 @@
+vi = 0
+vf = 216*(float(1000)/3600)
+t = 10
+
+a = (vf-vi)/t
+print(' La aceleración es: ',a,'m/s^2')
+
+
