@@ -1,0 +1,13 @@
+t = 10
+vf = 25
+vi = 0
+t = 10
+
+d = ((vf-vi)/2)*t
+print('La distancia alcanzada es: ',d,'m')
+
+a = (vf**2)/(2*d)
+print('La aceleración es: ',a,'m/s^2')
+
+
+
