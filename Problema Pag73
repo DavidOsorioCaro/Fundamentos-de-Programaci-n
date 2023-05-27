@@ -1,0 +1,19 @@
+
+nombre = str(input(' Ingrese el nombre: '))
+impuestos_a_pagar = float(input( 'Ingrese el impuestos a pagar: '))
+numero_de_horas_trabajadas = float(input(' Ingrese número de horas trabajadas: '))
+valor_hora = float(input(" Ingrese el valor de la hora: "))
+salario = float(input(' Ingrese el salario base: '))
+
+impuesto_total = impuestos_a_pagar* 0.01
+salario_bruto = (numero_de_horas_trabajadas*valor_hora)
+
+salario_neto = salario_bruto-(impuesto_total*salario)
+print(salario_bruto)
+print(salario_neto)
+
+
+
+print(f' El salario neto de {nombre} es: {salario_neto}')
+
+
