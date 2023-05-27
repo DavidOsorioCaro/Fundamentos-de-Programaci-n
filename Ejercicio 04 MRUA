@@ -1,0 +1,7 @@
+vi = 12 
+a = 2 # m/s^2
+vf = 144*(1000/3600)
+
+t = (vf-vi)/a
+
+print("El tiempo que tarda en adquirir una velocidad de 144 km/h es de", t, "segundos.")
